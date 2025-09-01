@@ -1,0 +1,32 @@
+[
+  {
+    "model": "blog.category",
+    "pk": 1,
+    "fields": { "name": "Django" }
+  },
+  {
+    "model": "blog.category",
+    "pk": 2,
+    "fields": { "name": "Python" }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "title": "Getting Started with Django",
+      "content": "Django is a high-level Python web framework...",
+      "category": 1,
+      "published_date": "2025-09-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "title": "Advanced Python Tips",
+      "content": "Here are some advanced Python programming techniques...",
+      "category": 2,
+      "published_date": "2025-08-30T15:30:00Z"
+    }
+  }
+]
